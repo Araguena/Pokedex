@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokedex</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="js/main.min.js"></script>
+</head>
+<body>
+<header>
+  <h1 class="page-heading">Pokedex</h1>
+</header>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-8 col-md-8">
+        <div class="pokemon-container"></div>
+        <button class="js-load-more load-btn hidden">Load more</button>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-4 col-lg-push-1 col-lg-3">
+        <div class="pokemon-details hidden" data-pokemon-id="">
+          <img src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCU1Rz-LMD-g3k4bpd1jsDM_zJSqe45NkF3h2CmBaz0ORsEi-FzA' alt="">
+
+          <h3>Pokemon name</h3>
+          <table>
+            <tr>
+              <td>Type</td>
+              <td data-details-type="types">N/A</td>
+            </tr>
+            <tr>
+              <td>Attack</td>
+              <td data-details-type="attack">N/A</td>
+            </tr>
+            <tr>
+              <td>Defense</td>
+              <td data-details-type="defense">N/A</td>
+            </tr>
+            <tr>
+              <td>HP</td>
+              <td data-details-type="hp">N/A</td>
+            </tr>
+            <tr>
+              <td>SP Attack</td>
+              <td data-details-type="sp_attack">N/A</td>
+            </tr>
+            <tr>
+              <td>SP Defense</td>
+              <td data-details-type="sp_def">N/A</td>
+            </tr>
+            <tr>
+              <td>Speed</td>
+              <td data-details-type="speed">N/A</td>
+            </tr>
+            <tr>
+              <td>Weight</td>
+              <td data-details-type="weight">N/A</td>
+            </tr>
+            <tr>
+              <td>Total moves</td>
+              <td data-details-type="moves">N/A</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer></footer>
+
+</body>
+</html>
