@@ -23,7 +23,7 @@ function onDOMContentLoad() {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'http://pokeapi.co/api/v1/pokemon/?limit=' + loadDataParams.limit + '&offset=' + loadDataParams.offset);
+    xhr.open('GET', 'https://pokeapi.co/api/v1/pokemon/?limit=' + loadDataParams.limit + '&offset=' + loadDataParams.offset);
     xhr.send();
 
     xhr.onload = function () {
@@ -156,7 +156,7 @@ function onDOMContentLoad() {
   function getPokemonDetails(pokemonId) {
     var req = new XMLHttpRequest();
 
-    req.open('GET', 'http://pokeapi.co/api/v1/pokemon/' + pokemonId + '/');
+    req.open('GET', 'https://pokeapi.co/api/v1/pokemon/' + pokemonId + '/');
     req.send();
 
     req.onload = function () {
